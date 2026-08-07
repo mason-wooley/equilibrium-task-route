@@ -1,0 +1,22 @@
+{
+    "steps": [
+        {
+            "id": 0,
+            "task_id": 0,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 1,
+            "task_id": -1,
+            "name": "Pick first Relic.",
+            "notes": "My plan is to choose Golden Touch here. Any steps that require Golden Touch are noted, but not required."
+        },
+                {
+            "id": 222,
+            "task_id": 0,
+            "name": "",
+            "notes": ""
+        }
+    ]
+}

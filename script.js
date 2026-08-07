@@ -18,49 +18,100 @@ function renderWikiLinks(text) {
 }
 
 
-// Load tasks.json
-fetch("tasks.json")
-    .then(response => response.json())
-    .then(data => {
+// Load steps.json
+Promise.all([
+    fetch("tasks.json").then(response => response.json()),
+    fetch("steps.json").then(response => response.json())
+])
+    .then(([tasksData, stepsData]) => {
 
-        data.tasks.forEach(task => {
+        const tasks = tasksData.tasks;
+        const steps = stepsData.steps;
 
-            const taskDiv = document.createElement("div");
+        steps.forEach(step => {
 
-            taskDiv.innerHTML = `
-                <label>
-                    <input type="checkbox" id="task-${task.id}">
-                    <strong>${task.name}</strong>
-                </label>
+            const task = tasks.find(task => task.id === step.task_id);
+            const stepDiv = document.createElement("div");
 
-                <p>
-                    ${renderWikiLinks(task.description)}
-                </p>
-
-                <hr>
-            `;
-
-            taskList.appendChild(taskDiv);
+            let html = "";
 
 
-            // Save checkbox state
-            const checkbox = document.getElementById(`task-${task.id}`);
+            // Step is not attached to a task
+            if (step.task_id === null) {
 
-            checkbox.checked =
-                localStorage.getItem(`task-${task.id}`) === "true";
+                html += `
+                    <h3>${step.name}</h3>
+                `;
+
+            } else {
+
+                html += `
+                    <label>
+                        <input type="checkbox" id="step-${step.id}">
+                        <strong>${task.name}</strong>
+                    </label>
+                `;
+
+                if (task) {
+
+                    html += `
+                        <p>
+                            ${renderWikiLinks(task.description)}
+                        </p>
+                    `;
+
+                }
+            }
 
 
-            checkbox.addEventListener("change", () => {
-                localStorage.setItem(
-                    `task-${task.id}`,
-                    checkbox.checked
-                );
-            });
+            // Only show notes if they exist
+            if (step.notes && step.notes.trim() !== "") {
+
+                html += `
+                    <p>
+                        <em>${renderWikiLinks(step.notes)}</em>
+                    </p>
+                `;
+
+            }
+
+
+            html += "<hr>";
+
+            stepDiv.innerHTML = html;
+
+            taskList.appendChild(stepDiv);
+
+
+            // Save checkbox state only for task steps
+            if (step.task_id !== null) {
+
+                const checkbox =
+                    document.getElementById(`step-${step.id}`);
+
+
+                checkbox.checked =
+                    localStorage.getItem(`step-${step.id}`) === "true";
+
+
+                checkbox.addEventListener("change", () => {
+
+                    localStorage.setItem(
+                        `step-${step.id}`,
+                        checkbox.checked
+                    );
+
+                });
+
+            }
 
         });
 
     })
     .catch(error => {
-        taskList.textContent = "Failed to load tasks.";
+
+        taskList.textContent = "Failed to load steps.";
+
         console.error(error);
+
     });
