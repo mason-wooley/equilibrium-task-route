@@ -2,21 +2,556 @@
     "steps": [
         {
             "id": 0,
+            "order": 0,
             "task_id": 0,
             "name": "",
             "notes": ""
         },
         {
             "id": 1,
-            "task_id": -1,
-            "name": "Pick first Relic.",
-            "notes": "My plan is to choose Golden Touch here. Any steps that require Golden Touch are noted, but not required."
+            "order": 1,
+            "task_id": null,
+            "name": "Pick your first Relic.",
+            "notes": ""
         },
-                {
-            "id": 222,
-            "task_id": 0,
+        {
+            "id": 2,
+            "order": 2,
+            "task_id": 222,
             "name": "",
             "notes": ""
+        },
+        {
+            "id": 3,
+            "order": 3,
+            "task_id": 188,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 4,
+            "order": 4,
+            "task_id": 189,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 5,
+            "order": 5,
+            "task_id": null,
+            "name": "Pick up a Slayer task from Jacquelyn.",
+            "notes": ""
+        },
+        {
+            "id": 6,
+            "order": 6,
+            "task_id": 32,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 7,
+            "order": 7,
+            "task_id": 219,
+            "name": "",
+            "notes": "The [[Musician_(Lumbridge)|musician]] is north of Lumbridge Lodestone."
+        },
+        {
+            "id": 8,
+            "order": 8,
+            "task_id": 33,
+            "name": "",
+            "notes": "[[Caitlin's Staff]] gives unlimited air runes and allows you to use magic for combat until you arrive in Varrock later. If you need more gp, you can sell the six [[Demon statuette (disambiguation)|demon statuettes]] in the catacombs to Xenia for 2,500 gp total."
+        },
+        {
+            "id": 9,
+            "order": 9,
+            "task_id": 195,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 10,
+            "order": 10,
+            "task_id": 196,
+            "name": "",
+            "notes": "Get at least level 2 Thieving and about 2,000 gp."
+        },
+        {
+            "id": 11,
+            "order": 11,
+            "task_id": 197,
+            "name": "",
+            "notes": "Vegetable stall: Eat the cabbage and onion using the bank chest to unnote the items if you have Golden Touch."
+        },
+        {
+            "id": 12,
+            "order": 12,
+            "task_id": 198,
+            "name": "",
+            "notes": "Keep going until level 10+. Hold on to the magic combat items, bank everything else."
+        },
+        {
+            "id": 13,
+            "order": 13,
+            "task_id": 211,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 14,
+            "order": 14,
+            "task_id": 213,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 15,
+            "order": 15,
+            "task_id": 133,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 16,
+            "order": 16,
+            "task_id": 134,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 17,
+            "order": 17,
+            "task_id": 135,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 18,
+            "order": 18,
+            "task_id": 216,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 19,
+            "order": 19,
+            "task_id": 217,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 20,
+            "order": 20,
+            "task_id": 218,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 21,
+            "order": 21,
+            "task_id": null,
+            "name": "Buy supplies from the fishing store.",
+            "notes": "[[Lumbridge Fishing Supplies]] is on the west side of the market. You'll need about 60 bait and 50 feathers for a total of ~500 gp."
+        },
+        {
+            "id": 22,
+            "order": 22,
+            "task_id": 28,
+            "name": "",
+            "notes": "West of the fishing shop. Bury the bones. Focus on Magic and Defence xp."
+        },
+        {
+            "id": 23,
+            "order": 23,
+            "task_id": 186,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 24,
+            "order": 24,
+            "task_id": 202,
+            "name": "",
+            "notes": "Tree patch southwest of Lumbridge Market. Drop the weeds."
+        },
+        {
+            "id": 25,
+            "order": 25,
+            "task_id": 168,
+            "name": "",
+            "notes": "Fletch a wood box to store excess logs before moving to the swamp. Turn off Endless Harvest banking temporarily if you have it."
+        },
+        {
+            "id": 26,
+            "order": 26,
+            "task_id": 165,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 27,
+            "order": 27,
+            "task_id": 169,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 28,
+            "order": 28,
+            "task_id": 170,
+            "name": "",
+            "notes": "It takes 10 basic trees to reach level 10 Woodcutting."
+        },
+        {
+            "id": 29,
+            "order": 29,
+            "task_id": 820,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 30,
+            "order": 30,
+            "task_id": 821,
+            "name": "",
+            "notes": "No need to finish this task now, just get 10 Fletching here. You'll be Woodcutting on Havenhythe later. It takes ~47 basic trees to get 10 Fletching. Keep 5 extra logs for burning soon."
+        },
+        {
+            "id": 31,
+            "order": 31,
+            "task_id": 27,
+            "name": "",
+            "notes": "Kill a few until you have buried 10 bones. Cook at least one rat meat."
+        },
+        {
+            "id": 32,
+            "order": 32,
+            "task_id": 172,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 33,
+            "order": 33,
+            "task_id": 37,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 34,
+            "order": 34,
+            "task_id": 187,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 35,
+            "order": 35,
+            "task_id": 29,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 36,
+            "order": 36,
+            "task_id": 142,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 37,
+            "order": 37,
+            "task_id": 147,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 38,
+            "order": 38,
+            "task_id": 176,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 39,
+            "order": 39,
+            "task_id": 35,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 40,
+            "order": 40,
+            "task_id": 177,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 41,
+            "order": 41,
+            "task_id": 178,
+            "name": "",
+            "notes": "It takes ~49 shrimp to get 15 Fishing."
+        },
+        {
+            "id": 42,
+            "order": 42,
+            "task_id": 183,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 43,
+            "order": 43,
+            "task_id": 180,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 44,
+            "order": 44,
+            "task_id": 835,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 45,
+            "order": 45,
+            "task_id": 181,
+            "name": "",
+            "notes": "Use up your remaining 4 logs to cook the Shrimp."
+        },
+        {
+            "id": 46,
+            "order": 46,
+            "task_id": 173,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 47,
+            "order": 47,
+            "task_id": 182,
+            "name": "",
+            "notes": "Drop the food and burnt food."
+        },
+        {
+            "id": 48,
+            "order": 48,
+            "task_id": 221,
+            "name": "",
+            "notes": "At this point your inventory should be: Wood Box, Feathers, Arrow Shafts, and at least 21 empty spaces."
+        },
+        {
+            "id": 49,
+            "order": 49,
+            "task_id": 160,
+            "name": "",
+            "notes": "Hold on to 1 clay to turn into Soft Clay."
+        },
+        {
+            "id": 50,
+            "order": 50,
+            "task_id": 153,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 51,
+            "order": 51,
+            "task_id": 154,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 52,
+            "order": 52,
+            "task_id": 155,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 53,
+            "order": 53,
+            "task_id": 156,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 54,
+            "order": 54,
+            "task_id": 162,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 55,
+            "order": 55,
+            "task_id": null,
+            "name": "Home teleport to Wendlewick (Alt+W).",
+            "notes": ""
+        },
+        {
+            "id": 56,
+            "order": 56,
+            "task_id": 157,
+            "name": "",
+            "notes": "The furnace is on the east side of Wendlewick."
+        },
+        {
+            "id": 57,
+            "order": 57,
+            "task_id": 158,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 58,
+            "order": 58,
+            "task_id": 159,
+            "name": "",
+            "notes": "Make 50x Bronze bolts (unf) and 1x Bronze ore box. Deposit the rest of the bars in the metal bank."
+        },
+        {
+            "id": 59,
+            "order": 59,
+            "task_id": 822,
+            "name": "",
+            "notes": "Equip the bronze bolts to save inventory space."
+        },
+        {
+            "id": 60,
+            "order": 60,
+            "task_id": 161,
+            "name": "",
+            "notes": "Continue east toward Marigold Farm (south from the bridge) and use the well. Drop the soft clay."
+        },
+        {
+            "id": 61,
+            "order": 61,
+            "task_id": 212,
+            "name": "",
+            "notes": "There are potatoes outside the farmhouse to pick and a range inside to cook on."
+        },
+        {
+            "id": 62,
+            "order": 62,
+            "task_id": 860,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 63,
+            "order": 63,
+            "task_id": 220,
+            "name": "",
+            "notes": "Collect 2 wheat north of the farm. One for bread, another for Cook's Assistant."
+        },
+        {
+            "id": 64,
+            "order": 64,
+            "task_id": 839,
+            "name": "",
+            "notes": "A pot spawns on the bottom floor of the windmill on a table."
+        },
+        {
+            "id": 65,
+            "order": 65,
+            "task_id": 215,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 66,
+            "order": 66,
+            "task_id": null,
+            "name": "Collect an egg.",
+            "notes": "Used for Cook's Assistant."
+        },
+        {
+            "id": 67,
+            "order": 67,
+            "task_id": 30,
+            "name": "",
+            "notes": "There's a bucket on the ground in the trough room. Keep the milk for Cook's Assistant."
+        },
+        {
+            "id": 68,
+            "order": 68,
+            "task_id": 838,
+            "name": "",
+            "notes": "A sink and range is in the farmhouse at Marigold Farm."
+        },
+        {
+            "id": 69,
+            "order": 69,
+            "task_id": 1171,
+            "name": "",
+            "notes": "He wanders all around the island, so keep an eye out for him."
+        },
+        {
+            "id": 70,
+            "order": 70,
+            "task_id": 861,
+            "name": "",
+            "notes": "Continue east toward Eastfold Farm where the sheep are. There is a spinning wheel in the house. You can drop the bowstring."
+        },
+        {
+            "id": 71,
+            "order": 71,
+            "task_id": 863,
+            "name": "",
+            "notes": "Collect 14 balls of wool total. There is 1 that spawns on the table in the farm."
+        },
+        {
+            "id": 72,
+            "order": 72,
+            "task_id": 210,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 73,
+            "order": 68.1,
+            "task_id": null,
+            "name": "Pickpocket from the Farmers around Marigold Farm.",
+            "notes": "Get to level 15 Thieving. It should only take about 30 seconds. You can drop the seeds for now, but keep an eye out for Marigold and Guam seeds."
+        },
+        {
+            "id": 74,
+            "order": 74,
+            "task_id": null,
+            "name": "Complete the Cook's Assistant quest.",
+            "notes": "Complete [[Cook's Assistant]]"
+        },
+        {
+            "id": 75,
+            "order": 75,
+            "task_id": 47,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 76,
+            "order": 76,
+            "task_id": 214,
+            "name": "",
+            "notes": "You may not see one, but keep an eye out as you're walking around Misthalin."
+        },
+        {
+            "id": 77,
+            "order": 77,
+            "task_id": 50,
+            "name": "",
+            "notes": "The entrance to the hideout is south of the duck pond."
+        },
+        {
+            "id": 79,
+            "order": 79,
+            "task_id": null,
+            "name": "Pick your second relic.",
+            "notes": "If you don't have enough points yet, you'll have it soon."
         }
     ]
 }
