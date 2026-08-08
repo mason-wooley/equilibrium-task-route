@@ -1,7 +1,7 @@
 const taskList = document.getElementById("taskList");
 const completedCount = document.getElementById("completedCount");
 const leaguePoints = document.getElementById("leaguePoints");
-
+const resetButton = document.getElementById("resetButton");
 
 const tierPoints = {
     easy: 10,
@@ -59,6 +59,33 @@ Promise.all([
         const steps = stepsData.steps.sort(
             (a, b) => a.order - b.order
         );
+
+        // Reset progress
+        resetButton.addEventListener("click", () => {
+
+            if (!confirm("Are you sure you want to reset all completed tasks?")) {
+                return;
+            }
+
+            steps.forEach(step => {
+                localStorage.removeItem(`step-${step.id}`);
+
+                const checkbox =
+                    document.getElementById(`step-${step.id}`);
+
+                if (checkbox) {
+                    checkbox.checked = false;
+
+                    const taskCard = checkbox.closest(".task-card");
+
+                    if (taskCard) {
+                        taskCard.classList.remove("completed");
+                    }
+                }
+            });
+
+            updateProgress(steps, tasks);
+        });
 
         steps.forEach(step => {
             const task = tasks.find(task => task.id === step.task_id);

@@ -547,11 +547,32 @@
             "notes": "The entrance to the hideout is south of the duck pond."
         },
         {
-            "id": 79,
-            "order": 79,
+            "id": 78,
+            "order": 78,
             "task_id": null,
             "name": "Pick your second relic.",
             "notes": "If you don't have enough points yet, you'll have it soon."
+        },
+        {
+            "id": 79,
+            "order": 79,
+            "task_id": null,
+            "name": "Unlock the Draynor Lodestone.",
+            "notes": ""
+        },
+        {
+            "id": 80,
+            "order": 80,
+            "task_id": 3,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 81,
+            "order": 81,
+            "task_id": null,
+            "name": "Begin the quest Vampire Slayer.",
+            "notes": "You're not completing [[Vampire Slayer]] right here, just picking it up before going to Varrock soon."
         }
     ]
 }
