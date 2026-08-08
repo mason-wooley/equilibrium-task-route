@@ -389,8 +389,8 @@
             "id": 55,
             "order": 55,
             "task_id": null,
-            "name": "Home teleport to Wendlewick (Alt+W).",
-            "notes": ""
+            "name": "Home teleport to Wendlewick.",
+            "notes": "Keyboard shortcut: Alt+W"
         },
         {
             "id": 56,
@@ -425,7 +425,7 @@
             "order": 60,
             "task_id": 161,
             "name": "",
-            "notes": "Continue east toward Marigold Farm (south from the bridge) and use the well. Drop the soft clay."
+            "notes": "Continue east toward [[Marigold Farm]] (south from the bridge) and use the well. Drop the soft clay."
         },
         {
             "id": 61,
@@ -495,7 +495,7 @@
             "order": 70,
             "task_id": 861,
             "name": "",
-            "notes": "Continue east toward Eastfold Farm where the sheep are. There is a spinning wheel in the house. You can drop the bowstring."
+            "notes": "Continue east toward [[Eastfold Farm]] where the sheep are. There is a spinning wheel in the house. You can drop the bowstring."
         },
         {
             "id": 71,
@@ -509,7 +509,7 @@
             "order": 72,
             "task_id": 210,
             "name": "",
-            "notes": ""
+            "notes": "Keyboard shortcut: L"
         },
         {
             "id": 73,
@@ -572,7 +572,511 @@
             "order": 81,
             "task_id": null,
             "name": "Begin the quest Vampire Slayer.",
-            "notes": "You're not completing [[Vampire Slayer]] right here, just picking it up before going to Varrock soon."
+            "notes": "You're not completing [[Vampire Slayer]] right here, just picking it up before going to Varrock."
+        },
+        {
+            "id": 82,
+            "order": 71.5,
+            "task_id": null,
+            "name": "Kill goblins for level 20 Magic and Defence.",
+            "notes": "The goblins are south of [[Eastfold Farm]], close to the coast. It should take about 15-20 goblins to get to level 20."
+        },
+        {
+            "id": 83,
+            "order": 54.5,
+            "task_id": 40,
+            "name": "",
+            "notes": "Complete the slayer task if you haven't already."
+        },
+        {
+            "id": 84,
+            "order": 71.6,
+            "task_id": 136,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 85,
+            "order": 71.7,
+            "task_id": 143,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 86,
+            "order": 77.1,
+            "task_id": null,
+            "name": "With Golden Touch, continue until you have ~60k gp.",
+            "notes": "Without Golden Touch, you just need ~2,000 gp."
+        },
+        {
+            "id": 87,
+            "order": 82,
+            "task_id": 190,
+            "name": "",
+            "notes": "The wisp colony is southeast of Draynor, on the way to the Wizards' Tower."
+        },
+        {
+            "id": 88,
+            "order": 83,
+            "task_id": 192,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 89,
+            "order": 84,
+            "task_id": 191,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 90,
+            "order": 85,
+            "task_id": 5,
+            "name": "",
+            "notes": "Staying here until 20 Divination opens up Bright Wisps near the Archaeology Campus later."
+        },
+        {
+            "id": 91,
+            "order": 86,
+            "task_id": 1,
+            "name": "",
+            "notes": "If this is too crowded, you can skip it for now."
+        },
+        {
+            "id": 92,
+            "order": 87,
+            "task_id": 2,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 93,
+            "order": 88,
+            "task_id": 4,
+            "name": "",
+            "notes": "Two islands north of the start location. 14 Runecrafting."
+        },
+        {
+            "id": 94,
+            "order":89,
+            "task_id": null,
+            "name": "Home teleport to Lumbridge.",
+            "notes": "Start heading toward Varrock."
+        },
+        {
+            "id": 95,
+            "order": 90,
+            "task_id": 98,
+            "name": "",
+            "notes": "Collect one set of bones."
+        },
+        {
+            "id": 96,
+            "order": 91,
+            "task_id": 101,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 97,
+            "order": 92,
+            "task_id": null,
+            "name": "Continue Vampire Slayer at Blue Moon Inn.",
+            "notes": "Buy an extra beer for [[Bill]] later."
+        },
+        {
+            "id": 98,
+            "order": 93,
+            "task_id": 864,
+            "name": "",
+            "notes": "Bought at [[Horvik's Armor Shop]] near Varrock market. Skip this step without Golden Touch."
+        },
+        {
+            "id": 99,
+            "order": 94,
+            "task_id": 911,
+            "name": "",
+            "notes": "Bought at [[Horvik's Armor Shop]] near Varrock market. Skip this step without Golden Touch."
+        },
+        {
+            "id": 100,
+            "order": 95,
+            "task_id": 866,
+            "name": "",
+            "notes": "Bought at [[Zaff's Superior Spellcasting]]. Skip this step without Golden Touch."
+        },
+        {
+            "id": 101,
+            "order": 96,
+            "task_id": 867,
+            "name": "",
+            "notes": "Bought at [[Zaff's Superior Spellcasting]]. Skip this step without Golden Touch."
+        },
+        {
+            "id": 102,
+            "order": 97,
+            "task_id": null,
+            "name": "Buy a wand, magic shield/orb, and some elemental runes while you're in Varrock.",
+            "notes": "Use a shield if you took [[Teragard's Aegis]]. You can sell or bank any gear you're not using."
+        },
+        {
+            "id": 103,
+            "order": 98,
+            "task_id": null,
+            "name": "Start the quest New Foundations at King Roald.",
+            "notes": "[[New Foundations]]"
+        },
+        {
+            "id": 104,
+            "order": 54.1,
+            "task_id": null,
+            "name": "Unlock the Karamja region.",
+            "notes": "[[Equilibrium_League/Regions/Karamja|Karamja]]"
+        },
+        {
+            "id": 105,
+            "order": 99,
+            "task_id": 102,
+            "name": "",
+            "notes": "Just outside the south entrance."
+        },
+        {
+            "id": 106,
+            "order": 100,
+            "task_id": 100,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 107,
+            "order": 101,
+            "task_id": 113,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 108,
+            "order": 102,
+            "task_id": null,
+            "name": "Complete the Natural History Quiz in Varrock Museum.",
+            "notes": "There are no good training methods for Hunter, so the [[Natural History Quiz]] will get you to 25 Hunter."
+        },
+        {
+            "id": 109,
+            "order": 103,
+            "task_id": 148,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 110,
+            "order": 104,
+            "task_id": 107,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 111,
+            "order": 105,
+            "task_id": 117,
+            "name": "",
+            "notes": "The next available Divination energy is at level 50, so don't bother going past the minimum here."
+        },
+        {
+            "id": 112,
+            "order": 106,
+            "task_id": 193,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 113,
+            "order": 107,
+            "task_id": 104,
+            "name": "",
+            "notes": "Keep the [[Archaeology journal]] in your pocket slot."
+        },
+        {
+            "id": 114,
+            "order": 108,
+            "task_id": 108,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 115,
+            "order": 109,
+            "task_id": null,
+            "name": "Progress through New Foundations up to the point where the Workshop is built.",
+            "notes": "Head north from the [[Archaeology Campus]] to [[Fort Forinthry]]. You can buy materials from [[Bill]] or gather them yourself. You may not have enough gold without Golden Touch. Regular [[Logs]] can be gathered from the nearby [[Tree|trees]]. [[Limestone]] can be gathered from the [[Silvarea quarry]] near [[Paterdomus]]. There is a deposit box south of Silvarea near the mansion."
+        },
+        {
+            "id": 116,
+            "order": 110,
+            "task_id": 103,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 117,
+            "order": 111,
+            "task_id": 105,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 118,
+            "order": 112,
+            "task_id": 22,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 119,
+            "order": 113,
+            "task_id": 23,
+            "name": "",
+            "notes": "Feel free to skip this step without the funds to buy materials. Gathering takes a while."
+        },
+        {
+            "id": 120,
+            "order": 114,
+            "task_id": null,
+            "name": "Build the Fort Forinthry lodestone.",
+            "notes": "Skip this step if New Foundations isn't completed."
+        },
+        {
+            "id": 121,
+            "order": 115,
+            "task_id": null,
+            "name": "Home teleport to Wendlewick.",
+            "notes": "The bank is north of the lodestone. Get your wood box, combat runes (Air), Marigold and Guam seeds, and bank everything else."
+        },
+        {
+            "id": 122,
+            "order": 116,
+            "task_id": 1173,
+            "name": "",
+            "notes": "It's south of the lodestone. You can teleport or run."
+        },
+        {
+            "id": 123,
+            "order": 117,
+            "task_id": null,
+            "name": "Buy a hunter supplies from the Groundskeeper.",
+            "notes": "The [[Groundskeeper]] has a [[The Birds and the Bees|shop]] south of the lighthouse. You need at least 1 [[Clockwork]], but multiple are fine. You can also pick up some [[Rabbit snare|Rabbit snares]] here after getting 32 Hunter."
+        },
+        {
+            "id": 124,
+            "order": 118,
+            "task_id": 1188,
+            "name": "",
+            "notes": "1 Clockwork + 1 Logs. You get the Clockwork back when checking the birdhouse."
+        },
+        {
+            "id": 125,
+            "order": 119,
+            "task_id": null,
+            "name": "Head east to Marigold Farm.",
+            "notes": "You will be Farming, but fill your time with checking Birdhouses, Woodcutting, Fletching, and Thieving while waiting for plants to grow. There are [[Farmer|farmers]] and [[Master Farmer|master farmers]] in the area to collect seeds from."
+        },
+        {
+            "id": 126,
+            "order": 120,
+            "task_id": 203,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 127,
+            "order": 121,
+            "task_id": 204,
+            "name": "",
+            "notes": "Keep at least 1 unnoted [[Marigold]] from farming."
+        },
+        {
+            "id": 128,
+            "order": 122,
+            "task_id": 206,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 129,
+            "order": 123,
+            "task_id": 207,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 130,
+            "order": 124,
+            "task_id": 813,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 131,
+            "order": 125,
+            "task_id": 815,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 132,
+            "order": 126,
+            "task_id": 816,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 133,
+            "order": 127,
+            "task_id": 1189,
+            "name": "",
+            "notes": "There are several [[birdhouse]] hotspots around the area. Basic birdhouses take 30 seconds and use 1 seed as bait."
+        },
+        {
+            "id": 134,
+            "order": 128,
+            "task_id": 166,
+            "name": "",
+            "notes": "Continue Woodcutting and Fletching while waiting for crops to grow. The goal is 35 Woodcutting. Finish the arrow shaft task from earlier if it isn't complete already."
+        },
+        {
+            "id": 135,
+            "order": 129,
+            "task_id": 171,
+            "name": "",
+            "notes": "You can upgrade your [[wood box]] as you level fletching."
+        },
+        {
+            "id": 136,
+            "order": 130,
+            "task_id": 200,
+            "name": "",
+            "notes": "Pickpocketing will be your primary way to gather seeds. Your goal is to get 40-50 Thieving here."
+        },
+        {
+            "id": 137,
+            "order": 131,
+            "task_id": 1146,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 138,
+            "order": 132,
+            "task_id": 1147,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 139,
+            "order": 128.1,
+            "task_id": 819,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 140,
+            "order": 133,
+            "task_id": 1167,
+            "name": "",
+            "notes": "The most important task. South of Eastfold Farm, near the pond with ducks. There is a [[Anya|red tent]] there."
+        },
+        {
+            "id": 141,
+            "order": 134,
+            "task_id": 1175,
+            "name": "",
+            "notes": "If you didn't find one while woodcutting or thieving, don't worry about it."
+        },
+        {
+            "id": 142,
+            "order": 54.2,
+            "task_id": 612,
+            "name": "",
+            "notes": "This is auto-completed on unlocking Karamja, so free 30 points."
+        },
+        {
+            "id": 143,
+            "order": 135,
+            "task_id": 1186,
+            "name": "",
+            "notes": "These are on the cliffs around Raz's house. Keep going until 5 Agility if you don't have it yet."
+        },
+        {
+            "id": 144,
+            "order": 136,
+            "task_id": 862,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 145,
+            "order": 137,
+            "task_id": 1168,
+            "name": "",
+            "notes": "Far to the north and west of the cliffs here, overhanging the ocean."
+        },
+        {
+            "id": 146,
+            "order": 138,
+            "task_id": 1179,
+            "name": "",
+            "notes": "These are quite good money with Golden Touch, so stay here until 50 Thieving if you didn't get it earlier."
+        },
+        {
+            "id": 147,
+            "order": 139,
+            "task_id": 1181,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 148,
+            "order": 140,
+            "task_id": 1178,
+            "name": "",
+            "notes": "West beach of Havenhythe. Try to pick up 20 Defence here. Magic should be the preferred style if you have runes."
+        },
+        {
+            "id": 149,
+            "order": 141,
+            "task_id": null,
+            "name": "Home teleport to Lumbridge.",
+            "notes": "You can buy upgraded hatchets from [[Bob's Brilliant Axes]] while you're here."
+        },
+        {
+            "id": 150,
+            "order": 142,
+            "task_id": 48,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 151,
+            "order": 143,
+            "task_id": null,
+            "name": "Home teleport to Varrock.",
+            "notes": "You can bank and finish up any tasks that required gold earlier if you have enough now."
+        },
+        {
+            "id": 152,
+            "order": 144,
+            "task_id": 116,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 153,
+            "order": 138.1,
+            "task_id": 137,
+            "name": "",
+            "notes": ""
         }
     ]
 }

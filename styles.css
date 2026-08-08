@@ -414,6 +414,190 @@ TASK NAVIGATION
 }
 
 /* =========================
+   TASK CARD LAYOUT
+========================= */
+
+.task-card {
+    display: flex;
+    align-items: stretch;
+    gap: 18px;
+}
+
+.task-card-content {
+    flex: 1;
+    min-width: 0;
+}
+
+
+/* =========================
+   TASK CARD METADATA
+========================= */
+
+.task-card-meta {
+    flex-shrink: 0;
+
+    width: 54px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    padding-left: 14px;
+
+    border-left: 1px solid rgba(0, 168, 137, 0.20);
+}
+
+
+/* Individual icon containers */
+
+.task-meta-item {
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+
+    background: rgba(1, 8, 0, 0.55);
+
+    border: 1px solid rgba(191, 221, 174, 0.14);
+
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+
+/* Wiki icons */
+
+.task-meta-item img {
+    display: block;
+
+    width: 28px;
+    height: 28px;
+
+    object-fit: contain;
+
+    image-rendering: auto;
+}
+
+
+/* Cumulative point total */
+
+.task-meta-points {
+    width: 42px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px 2px;
+
+    border-radius: 7px;
+
+    background: rgba(1, 8, 0, 0.55);
+
+    border: 1px solid rgba(191, 221, 174, 0.14);
+
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+
+.task-meta-points span {
+    font-family: "Alverata", serif;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    line-height: 1.1;
+
+    background: linear-gradient(
+        to bottom,
+        #fdf0b4 0%,
+        #fab07b 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+    filter:
+        drop-shadow(0 1px 0 #071a0c)
+        drop-shadow(0 2px 3px rgba(0, 0, 0, 0.8));
+}
+
+
+.task-meta-points small {
+    margin-top: 1px;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+    color: #aeb0c8;
+}
+
+
+/* Slightly brighten metadata when hovering over card */
+
+.task-list>div:hover .task-meta-item,
+.task-list>div:hover .task-meta-points {
+    border-color: rgba(0, 239, 220, 0.30);
+}
+
+
+/* =========================
+   MOBILE TASK METADATA
+========================= */
+
+@media (max-width: 600px) {
+
+    .task-card {
+        gap: 10px;
+    }
+
+    .task-card-meta {
+        width: 44px;
+
+        padding-left: 8px;
+
+        gap: 7px;
+    }
+
+    .task-meta-item {
+        width: 30px;
+        height: 30px;
+    }
+
+    .task-meta-item img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .task-meta-points {
+        width: 34px;
+    }
+
+    .task-meta-points span {
+        font-size: 13px;
+    }
+
+    .task-meta-points small {
+        font-size: 8px;
+    }
+}
+
+/* =========================
    TASK TEXT
 ========================= */
 
