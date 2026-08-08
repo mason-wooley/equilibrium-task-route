@@ -2,6 +2,8 @@ const taskList = document.getElementById("taskList");
 const completedCount = document.getElementById("completedCount");
 const leaguePoints = document.getElementById("leaguePoints");
 const resetButton = document.getElementById("resetButton");
+const scrollTopButton = document.getElementById("scrollTopButton");
+const scrollLastCompletedButton = document.getElementById("scrollLastCompletedButton");
 
 const tierPoints = {
     easy: 10,
@@ -46,6 +48,44 @@ function updateProgress(steps, tasks) {
     completedCount.textContent = completed;
     leaguePoints.textContent = points;
 }
+
+// Scroll to the first uncompleted task
+function scrollToFirstUncompleted(behavior = "instant") {
+    const firstUncompleted = taskList.querySelector(
+        ".task-card:not(.completed)"
+    );
+
+    if (firstUncompleted) {
+        const headerHeight =
+            document.querySelector(".site-header").offsetHeight;
+
+        const taskPosition =
+            firstUncompleted.offsetTop - 30;
+
+        taskList.scrollTo({
+            top: taskPosition,
+            behavior: behavior
+        });
+    }
+}
+
+// Scroll to the top of the task list
+function scrollToTop() {
+    taskList.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+scrollTopButton.addEventListener(
+    "click",
+    scrollToTop
+);
+
+scrollLastCompletedButton.addEventListener(
+    "click",
+    () => scrollToFirstUncompleted("smooth")
+);
 
 // Load both tasks.json & steps.json
 Promise.all([
@@ -148,6 +188,10 @@ Promise.all([
         });
 
         updateProgress(steps, tasks);
+
+        setTimeout(() => {
+            scrollToFirstUncompleted();
+        }, 100);
     })
     .catch(error => {
         taskList.textContent = "Failed to load steps.";
