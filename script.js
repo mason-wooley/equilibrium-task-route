@@ -63,6 +63,7 @@ Promise.all([
         steps.forEach(step => {
             const task = tasks.find(task => task.id === step.task_id);
             const stepDiv = document.createElement("div");
+            stepDiv.className = "task-card";
 
             let html = "";
 
@@ -92,8 +93,6 @@ Promise.all([
                 `;
             }
 
-            html += "<hr>";
-
             stepDiv.innerHTML = html;
 
             taskList.appendChild(stepDiv);
@@ -103,12 +102,19 @@ Promise.all([
 
             checkbox.checked = localStorage.getItem(`step-${step.id}`) === "true";
 
+            if (checkbox.checked) {
+                stepDiv.classList.add("completed");
+            }
+
             checkbox.addEventListener("change", () => {
 
                 localStorage.setItem(
                     `step-${step.id}`,
                     checkbox.checked
                 );
+
+                checkbox.closest(".task-card")
+                    ?.classList.toggle("completed", checkbox.checked);
 
                 updateProgress(steps, tasks);
             });

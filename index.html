@@ -1,23 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>RuneScape Leagues Tasks</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<h1>Leagues Route</h1>
+    <header class="site-header">
 
-<div id="progress">
-    <strong>Tasks Completed:</strong> <span id="completedCount">0</span>
-    <br>
-    <strong>League Points:</strong> <span id="leaguePoints">0</span>
-</div>
+        <div class="header-content">
 
-<hr>
+            <h1>Leagues Route</h1>
 
-<div id="taskList"></div>
+            <div class="progress">
 
-<script src="script.js"></script>
+                <div class="stat-card">
+                    <span class="stat-label">Tasks Completed</span>
+                    <span id="completedCount" class="stat-value">0</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-label">League Points</span>
+                    <span id="leaguePoints" class="stat-value">0</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="main-content">
+
+        <div id="taskList" class="task-list"></div>
+
+    </main>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
