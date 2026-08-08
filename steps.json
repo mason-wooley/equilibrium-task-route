@@ -152,7 +152,7 @@
             "order": 21,
             "task_id": null,
             "name": "Buy supplies from the fishing store.",
-            "notes": "[[Lumbridge Fishing Supplies]] is on the west side of the market. You'll need about 60 bait and 50 feathers for a total of ~500 gp."
+            "notes": "[[Lumbridge Fishing Supplies]] is on the west side of the market. You'll need about 50 bait and 50 feathers for a total of ~500 gp."
         },
         {
             "id": 22,
@@ -292,7 +292,7 @@
             "order": 41,
             "task_id": 178,
             "name": "",
-            "notes": "It takes ~49 shrimp to get 15 Fishing."
+            "notes": "Switch back to net fishing at level 15."
         },
         {
             "id": 42,
@@ -796,7 +796,7 @@
             "order": 107,
             "task_id": 104,
             "name": "",
-            "notes": "Keep the [[Archaeology journal]] in your pocket slot."
+            "notes": "Keep the [[Archaeology journal]] in your pocket slot. Take the opportunity to bank any unneeded items (Vampire Slayer will not be completed for a while)."
         },
         {
             "id": 114,
@@ -992,7 +992,7 @@
             "order": 134,
             "task_id": 1175,
             "name": "",
-            "notes": "If you didn't find one while woodcutting or thieving, don't worry about it."
+            "notes": "If you didn't find one while woodcutting or thieving, don't worry about it. Pick up the [[butterfly net]] off the ground here. If none are available, you can buy one from the shop in [[Hollow Hill]], in the cave near [[Ivar, King of Bones|Ivar]] to the east."
         },
         {
             "id": 142,
@@ -1006,7 +1006,7 @@
             "order": 135,
             "task_id": 1186,
             "name": "",
-            "notes": "These are on the cliffs around Raz's house. Keep going until 5 Agility if you don't have it yet."
+            "notes": "These are on the cliffs around Raz's house. You can only catch [[Gold spirit moth|gold spirit moths]] with a [[butterfly net]] for now. Keep going until 5 Agility if you don't have it yet."
         },
         {
             "id": 144,
@@ -1034,7 +1034,7 @@
             "order": 139,
             "task_id": 1181,
             "name": "",
-            "notes": ""
+            "notes": "This red vine grows on many of the houses in Wendlewick."
         },
         {
             "id": 148,
@@ -1062,7 +1062,7 @@
             "order": 143,
             "task_id": null,
             "name": "Home teleport to Varrock.",
-            "notes": "You can bank and finish up any tasks that required gold earlier if you have enough now."
+            "notes": "You can bank, stock up on runes, and finish up any tasks that required gold earlier if you have enough now."
         },
         {
             "id": 152,
@@ -1075,6 +1075,195 @@
             "id": 153,
             "order": 138.1,
             "task_id": 137,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 154,
+            "order": 9.5,
+            "task_id": 199,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 155,
+            "order": 40.5,
+            "task_id": 179,
+            "name": "",
+            "notes": "Switch to bait fishing at level 10."
+        },
+        {
+            "id": 156,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 157,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 158,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 159,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 160,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 161,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 162,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 163,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 164,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 165,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 166,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 167,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 168,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 169,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 170,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 171,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 172,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 173,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 174,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 175,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 176,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 177,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 178,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 179,
+            "order": 0,
+            "task_id": null,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 180,
+            "order": 0,
+            "task_id": null,
             "name": "",
             "notes": ""
         }
