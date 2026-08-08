@@ -12,27 +12,33 @@ body {
 body {
     font-family: Arial, Helvetica, sans-serif;
 
-    color: #e8f5ef;
+    color: #eae9fc;
 
-    background-image: url("league2_background.png");
+    background-color: #010800;
+
+    background-image:
+        linear-gradient(rgba(1, 8, 0, 0.55),
+            rgba(1, 8, 0, 0.55)),
+        url("league2_background.png");
+
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    background-color: #001b00;
 }
+
+/* =========================
+   TITLE
+========================= */
 
 h1 {
     font-family: "Alverata", serif;
     font-size: 44px;
     font-weight: bold;
 
-    background: linear-gradient(
-        to bottom,
-        #fdf0b4 0%,
-        #fab07b 100%
-    );
+    background: linear-gradient(to bottom,
+            #fdf0b4 0%,
+            #fab07b 100%);
 
     -webkit-background-clip: text;
     background-clip: text;
@@ -41,12 +47,11 @@ h1 {
     color: transparent;
 
     filter:
-        drop-shadow(0 2px 0 #071a0c)
-        drop-shadow(0 4px 6px rgba(0, 0, 0, 0.8));
+        drop-shadow(0 2px 0 #071a0c) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.8));
 }
 
 /* =========================
-HEADER
+   HEADER
 ========================= */
 
 .site-header {
@@ -54,14 +59,15 @@ HEADER
     top: 0;
     z-index: 100;
 
-    background: rgba(0, 27, 0, 0.94);
+    background: rgba(1, 8, 0, 0.97);
 
-    border-bottom: 1px solid rgba(0, 239, 220, 0.28);
+    border-bottom: 1px solid rgba(0, 239, 220, 0.22);
 
     box-shadow:
-        0 4px 20px rgba(0, 0, 0, 0.6);
+        0 4px 20px rgba(0, 0, 0, 0.75),
+        0 1px 0 rgba(146, 193, 16, 0.08);
 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
 }
 
 .header-content {
@@ -80,8 +86,12 @@ h1 {
     color: #65e58a;
 
     text-shadow:
-        0 0 12px rgba(0, 239, 220, 0.25);
+        0 0 12px rgba(70, 220, 100, 0.25);
 }
+
+/* =========================
+   RESET BUTTON
+========================= */
 
 .reset-button {
     margin-left: auto;
@@ -91,9 +101,9 @@ h1 {
     border: 1px solid rgba(250, 112, 123, 0.45);
     border-radius: 8px;
 
-    background: rgba(75, 20, 25, 0.65);
+    background: rgba(55, 12, 18, 0.72);
 
-    color: #e8f5ef;
+    color: #eae9fc;
 
     font-size: 13px;
     font-weight: bold;
@@ -106,7 +116,8 @@ h1 {
 }
 
 .reset-button:hover {
-    background: rgba(110, 25, 35, 0.8);
+    background: rgba(100, 20, 30, 0.82);
+
     border-color: rgba(250, 112, 123, 0.75);
 }
 
@@ -118,7 +129,7 @@ h1 {
 }
 
 /* =========================
-PROGRESS
+   PROGRESS
 ========================= */
 
 .progress {
@@ -138,9 +149,13 @@ PROGRESS
 
     border-radius: 10px;
 
-    background: rgba(0, 27, 0, 0.82);
+    background: rgba(2, 17, 15, 0.72);
 
-    border: 1px solid rgba(0, 239, 220, 0.22);
+    border: 1px solid rgba(191, 221, 174, 0.16);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.025),
+        0 3px 10px rgba(0, 0, 0, 0.35);
 }
 
 .stat-label {
@@ -150,7 +165,7 @@ PROGRESS
 
     letter-spacing: 1px;
 
-    color: #9cc9bd;
+    color: #aeb0c8;
 }
 
 .stat-value {
@@ -160,11 +175,9 @@ PROGRESS
     font-size: 20px;
     font-weight: bold;
 
-    background: linear-gradient(
-        to bottom,
-        #fdf0b4 0%,
-        #fab07b 100%
-    );
+    background: linear-gradient(to bottom,
+            #fdf0b4 0%,
+            #fab07b 100%);
 
     -webkit-background-clip: text;
     background-clip: text;
@@ -173,12 +186,11 @@ PROGRESS
     color: transparent;
 
     filter:
-        drop-shadow(0 1px 0 #071a0c)
-        drop-shadow(0 2px 3px rgba(0, 0, 0, 0.8));
+        drop-shadow(0 1px 0 #071a0c) drop-shadow(0 2px 3px rgba(0, 0, 0, 0.8));
 }
 
 /* =========================
-TASK AREA
+   TASK AREA
 ========================= */
 
 .main-content {
@@ -191,6 +203,10 @@ TASK AREA
     min-height: 300px;
 }
 
+/* =========================
+   TASK LIST
+========================= */
+
 .task-list {
     height: 100%;
 
@@ -200,22 +216,23 @@ TASK AREA
 }
 
 /* =========================
-TASK CARDS
+   TASK CARDS
 ========================= */
 
-.task-list > div {
+.task-list>div {
     margin-bottom: 12px;
 
     padding: 18px 20px;
 
     border-radius: 12px;
 
-    background: rgba(0, 27, 0, 0.78);
+    background: rgba(1, 17, 24, 0.88);
 
-    border: 1px solid rgba(0, 168, 137, 0.28);
+    border: 1px solid rgba(0, 168, 137, 0.24);
 
     box-shadow:
-        0 4px 14px rgba(0, 0, 0, 0.35);
+        0 4px 14px rgba(0, 0, 0, 0.38),
+        inset 0 1px 0 rgba(191, 221, 174, 0.025);
 
     transition:
         background 0.15s ease,
@@ -223,29 +240,27 @@ TASK CARDS
         transform 0.15s ease;
 }
 
-.task-list > div:hover {
-    background: rgba(0, 50, 35, 0.88);
+.task-list>div:hover {
+    background: rgba(0, 23, 36, 0.94);
 
-    border-color: rgba(0, 239, 220, 0.45);
+    border-color: rgba(0, 239, 220, 0.42);
 
     transform: translateY(-1px);
 }
 
 /* =========================
-CHECKBOX / TASK TITLE
+   CHECKBOX / TASK TITLE
 ========================= */
 
 .task-list label {
     display: flex;
-
     align-items: flex-start;
-
     gap: 12px;
 
     cursor: pointer;
 
+    color: #eae9fc;
     font-size: 17px;
-
     line-height: 1.4;
 }
 
@@ -261,25 +276,33 @@ CHECKBOX / TASK TITLE
 
     border-radius: 5px;
 
-    border: 2px solid #008f78;
+    border: 2px solid #117442;
 
-    background: rgba(0, 27, 0, 0.7);
+    background: rgba(1, 8, 0, 0.8);
 
     cursor: pointer;
 
     position: relative;
 
     transition: 0.15s ease;
+
+    margin-top: 2px;
 }
 
 .task-list input[type="checkbox"]:hover {
-    border-color: #00efdc;
+    border-color: #2db370;
+
+    box-shadow:
+        0 0 8px rgba(146, 193, 16, 0.25);
 }
 
 .task-list input[type="checkbox"]:checked {
-    background: #00a889;
+    background: #1b4d34;
 
-    border-color: #00efdc;
+    border-color: #36835c;
+
+    box-shadow:
+        0 0 8px rgba(146, 193, 16, 0.3);
 }
 
 .task-list input[type="checkbox"]:checked::after {
@@ -294,51 +317,68 @@ CHECKBOX / TASK TITLE
 
     font-weight: bold;
 
-    color: white;
+    color: #010800;
 }
+
+/* =========================
+   COMPLETED TASKS
+========================= */
 
 .task-card.completed {
     opacity: 0.55;
 
-    border-color: rgba(0, 168, 137, 0.12);
+    border-color: rgba(146, 193, 16, 0.12);
 }
 
 .task-card.completed strong {
     text-decoration: line-through;
 
-    color: #668f83;
+    color: #66776e;
 }
 
 /* =========================
-TASK TEXT
+   TASK TEXT
 ========================= */
 
 .task-list p {
     margin: 12px 0 0 32px;
 
-    color: #c0d8d0;
+    color: #c7c9dc;
 
-    font-size: 14px;
+    font-size: 16px;
 
     line-height: 1.5;
 }
 
 .task-list p em {
-    color: #7fc9b8;
-}
-
-.task-list a {
-    color: #00efdc;
-
-    text-decoration: none;
-}
-
-.task-list a:hover {
-    text-decoration: underline;
+    color: #bfddae;
 }
 
 /* =========================
-SCROLLBAR
+   LINKS
+========================= */
+
+.task-list a {
+    color: #00d9c6;
+
+    text-decoration: none;
+
+    transition:
+        color 0.15s ease,
+        text-shadow 0.15s ease;
+}
+
+.task-list a:hover {
+    color: #00efdc;
+
+    text-decoration: underline;
+
+    text-shadow:
+        0 0 6px rgba(0, 239, 220, 0.25);
+}
+
+/* =========================
+   SCROLLBAR
 ========================= */
 
 .task-list::-webkit-scrollbar {
@@ -346,7 +386,7 @@ SCROLLBAR
 }
 
 .task-list::-webkit-scrollbar-track {
-    background: rgba(0, 27, 0, 0.55);
+    background: rgba(1, 8, 0, 0.65);
 
     border-radius: 10px;
 }
@@ -358,11 +398,11 @@ SCROLLBAR
 }
 
 .task-list::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 239, 220, 0.7);
+    background: rgba(18, 230, 159, 0.7);
 }
 
 /* =========================
-MOBILE
+   MOBILE
 ========================= */
 
 @media (max-width: 600px) {
@@ -407,7 +447,7 @@ MOBILE
         margin-top: 10px;
     }
 
-    .task-list > div {
+    .task-list>div {
         padding: 15px;
     }
 }
