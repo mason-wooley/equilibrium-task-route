@@ -698,7 +698,7 @@
             flex: 1;
             min-height: 0;
             height: auto;
-            margin: 10px auto 0;
+            margin: 0 auto;
         }
 
         .task-list {
