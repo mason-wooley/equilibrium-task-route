@@ -3,7 +3,7 @@ const completedCount = document.getElementById("completedCount");
 const leaguePoints = document.getElementById("leaguePoints");
 const resetButton = document.getElementById("resetButton");
 const scrollTopButton = document.getElementById("scrollTopButton");
-const scrollLastCompletedButton = document.getElementById("scrollLastCompletedButton");
+const scrollNextButton = document.getElementById("scrollNextButton");
 
 const tierPoints = {
     easy: 10,
@@ -44,9 +44,7 @@ function renderWikiLinks(text) {
         (match, page, label) => {
             const displayText = label || page;
 
-            const url =
-                "https://runescape.wiki/w/" +
-                encodeURIComponent(page.replace(/ /g, "_"));
+            const url = "https://runescape.wiki/w/" + encodeURIComponent(page.replace(/ /g, "_"));
 
             return `<a href="${url}" target="_blank">${displayText}</a>`;
         }
@@ -73,21 +71,18 @@ function updateProgress(steps, tasks) {
     leaguePoints.textContent = points;
 }
 
-// Scroll to the first uncompleted task
-function scrollToFirstUncompleted(behavior = "instant") {
+// Scroll to the first uncompleted step
+function scrollToNextStep(behavior = "instant") {
     const firstUncompleted = taskList.querySelector(
         ".task-card:not(.completed)"
     );
 
     if (firstUncompleted) {
-        const headerHeight =
-            document.querySelector(".site-header").offsetHeight;
-
-        const taskPosition =
-            firstUncompleted.offsetTop - 30;
+        const headerHeight = document.querySelector(".site-header").offsetHeight;
+        const stepPosition = firstUncompleted.offsetTop - 30;
 
         taskList.scrollTo({
-            top: taskPosition,
+            top: stepPosition,
             behavior: behavior
         });
     }
@@ -106,9 +101,9 @@ scrollTopButton.addEventListener(
     scrollToTop
 );
 
-scrollLastCompletedButton.addEventListener(
+scrollNextButton.addEventListener(
     "click",
-    () => scrollToFirstUncompleted("smooth")
+    () => scrollToNextStep("smooth")
 );
 
 // Load both tasks.json & steps.json
@@ -134,8 +129,7 @@ Promise.all([
             steps.forEach(step => {
                 localStorage.removeItem(`step-${step.id}`);
 
-                const checkbox =
-                    document.getElementById(`step-${step.id}`);
+                const checkbox = document.getElementById(`step-${step.id}`);
 
                 if (checkbox) {
                     checkbox.checked = false;
@@ -283,7 +277,7 @@ Promise.all([
         updateProgress(steps, tasks);
 
         setTimeout(() => {
-            scrollToFirstUncompleted();
+            scrollToNextStep();
         }, 100);
     })
     .catch(error => {
