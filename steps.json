@@ -1347,27 +1347,20 @@
         {
             "id": 192,
             "order": 165,
-            "task_id": 596,
-            "name": "",
-            "notes": ""
-        },
-        {
-            "id": 193,
-            "order": 166,
             "task_id": 597,
             "name": "",
             "notes": "These are east of Brimhaven, toward [[Musa Point]]."
         },
         {
-            "id": 194,
-            "order": 167,
+            "id": 193,
+            "order": 166,
             "task_id": 614,
             "name": "",
             "notes": "Enter the [[Tzhaar City]] at the top of the volcano."
         },
         {
-            "id": 195,
-            "order": 168,
+            "id": 194,
+            "order": 167,
             "task_id": 595,
             "name": "",
             "notes": "Exit the city and head east toward the [[Banana Plantation]]."
