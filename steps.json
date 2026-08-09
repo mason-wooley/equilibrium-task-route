@@ -453,14 +453,14 @@
             "order": 64,
             "task_id": 839,
             "name": "",
-            "notes": "A pot spawns on the bottom floor of the windmill on a table. Collect 2 to turn both wheat into flour."
+            "notes": "A pot spawns on the bottom floor of the windmill on a table if you didn't buy any. Collect 2 to turn both wheat into flour."
         },
         {
             "id": 65,
             "order": 65,
             "task_id": 215,
             "name": "",
-            "notes": "Make sure to only make 1 wheat into bread dough."
+            "notes": ""
         },
         {
             "id": 66,
@@ -474,21 +474,21 @@
             "order": 67,
             "task_id": 30,
             "name": "",
-            "notes": "There's a bucket on the ground in the trough room. Keep the milk for Cook's Assistant."
+            "notes": "There's a bucket on the ground in the trough room if you didn't buy one.. Keep the milk for Cook's Assistant."
         },
         {
             "id": 68,
             "order": 68,
             "task_id": 838,
             "name": "",
-            "notes": "A sink and range is in the farmhouse at Marigold Farm."
+            "notes": "A sink and range is in the farmhouse at Marigold Farm. Make sure to only make 1 wheat into bread dough."
         },
         {
             "id": 69,
             "order": 69,
             "task_id": 1171,
             "name": "",
-            "notes": "He wanders all around the island, so keep an eye out for him."
+            "notes": "He wanders all around the island, so keep an eye out for him, but you don't have to chase him down now."
         },
         {
             "id": 70,
@@ -544,7 +544,7 @@
             "order": 77,
             "task_id": 50,
             "name": "",
-            "notes": "The entrance to the hideout is south of the duck pond."
+            "notes": "The entrance to the hideout is south of the duck pond. Keep an eye out for a [[Steel hatchet]] or [[Steel pickaxe]] to add to your toolbelt. You can sell [[Slayer's staff|Slayer staves]] to slayer masters for 6,300 gp each. You can sell or drop the other items. If you didn't get 20 Magic and Defence earlier, kill some [[H.A.M. Guard|H.A.M. guards]]."
         },
         {
             "id": 78,
@@ -579,7 +579,7 @@
             "order": 71.5,
             "task_id": null,
             "name": "Kill goblins for level 20 Magic and Defence.",
-            "notes": "The goblins are south of [[Eastfold Farm]], close to the coast. It should take about 15-20 goblins to get to level 20."
+            "notes": "The goblins are south of [[Eastfold Farm]], close to the coast. It should take about 15-20 goblins to get to level 20. If it's crowded, you'll have another area to train combat shortly."
         },
         {
             "id": 83,
@@ -607,7 +607,7 @@
             "order": 77.1,
             "task_id": null,
             "name": "With Golden Touch, continue until you have ~60k gp.",
-            "notes": "Without Golden Touch, you just need ~2,000 gp."
+            "notes": "Without Golden Touch, you just need ~2,000 gp, but more helps."
         },
         {
             "id": 87,
@@ -635,7 +635,7 @@
             "order": 85,
             "task_id": 5,
             "name": "",
-            "notes": "Staying here until 20 Divination opens up Bright Wisps near the Archaeology Campus later."
+            "notes": ""
         },
         {
             "id": 91,
@@ -656,7 +656,7 @@
             "order": 88,
             "task_id": 4,
             "name": "",
-            "notes": "Two islands north of the start location. 14 Runecrafting."
+            "notes": "Two islands north of the start location. Focus on Air Esslings to 9 Runcrafting and Earth Esslings to 14 Runecrafting."
         },
         {
             "id": 94,
@@ -691,28 +691,28 @@
             "order": 93,
             "task_id": 864,
             "name": "",
-            "notes": "Bought at [[Horvik's Armor Shop]] near Varrock market. Skip this step without Golden Touch."
+            "notes": "Bought at [[Horvik's Armor Shop]] near Varrock market. Skip this step if you're still low on gold."
         },
         {
             "id": 99,
             "order": 94,
             "task_id": 911,
             "name": "",
-            "notes": "Bought at [[Horvik's Armor Shop]] near Varrock market. Skip this step without Golden Touch."
+            "notes": "Bought at [[Horvik's Armor Shop]] near Varrock market. Skip this step if you're still low on gold."
         },
         {
             "id": 100,
             "order": 95,
             "task_id": 866,
             "name": "",
-            "notes": "Bought at [[Zaff's Superior Spellcasting]]. Skip this step without Golden Touch."
+            "notes": "Bought at [[Zaff's Superior Spellcasting]]. Skip this step if you're still low on gold."
         },
         {
             "id": 101,
             "order": 96,
             "task_id": 867,
             "name": "",
-            "notes": "Bought at [[Zaff's Superior Spellcasting]]. Skip this step without Golden Touch."
+            "notes": "Bought at [[Zaff's Superior Spellcasting]]. Skip this step if you're still low on gold."
         },
         {
             "id": 102,
@@ -733,7 +733,7 @@
             "order": 54.1,
             "task_id": null,
             "name": "Unlock the Karamja region.",
-            "notes": "[[Equilibrium_League/Regions/Karamja|Karamja]]"
+            "notes": "[[Equilibrium_League/Regions/Karamja|Karamja league unlocks]]."
         },
         {
             "id": 105,
@@ -761,7 +761,7 @@
             "order": 102,
             "task_id": null,
             "name": "Complete the Natural History Quiz in Varrock Museum.",
-            "notes": "There are no good training methods for Hunter, so the [[Natural History Quiz]] will get you to 25 Hunter."
+            "notes": "There are no good training methods for Hunter, so the [[Natural history quiz]] will get you to 25 Hunter."
         },
         {
             "id": 109,
@@ -772,17 +772,17 @@
         },
         {
             "id": 110,
-            "order": 104,
+            "order": 99.5,
             "task_id": 107,
             "name": "",
-            "notes": ""
+            "notes": "It's on the far east side of Varrock, just south of the gate."
         },
         {
             "id": 111,
             "order": 105,
             "task_id": 117,
             "name": "",
-            "notes": "The next available Divination energy is at level 50, so don't bother going past the minimum here."
+            "notes": "These are out of the east gate of Varrock on the way to the [[Archaeology Campus]]. The next available Divination energy is at level 50, so don't bother going past the minimum here."
         },
         {
             "id": 112,
@@ -803,7 +803,7 @@
             "order": 108,
             "task_id": 108,
             "name": "",
-            "notes": ""
+            "notes": "The panning spots are in the river to the east and a [[Panning tray]] spawns on a table nearby."
         },
         {
             "id": 115,
@@ -831,14 +831,14 @@
             "order": 112,
             "task_id": 22,
             "name": "",
-            "notes": ""
+            "notes": "Make sure to have your [[Wood box]], [[Ore box]], and any [[Marigold seed|Marigold]] and [[Gaum seed|Gaum]] seeds you gathered earlier before moving on from Fort Forinthry."
         },
         {
             "id": 119,
             "order": 113,
             "task_id": 23,
             "name": "",
-            "notes": "Feel free to skip this step without the funds to buy materials. Gathering takes a while."
+            "notes": "Feel free to skip this step without the funds to buy materials. Gathering takes a while. You can run north and grab the [[Edgeville lodestone]] when fetching [[Siv]] at the [[Barbarian Village]], but it's not a monumental time save."
         },
         {
             "id": 120,
@@ -852,21 +852,21 @@
             "order": 115,
             "task_id": null,
             "name": "Home teleport to Wendlewick.",
-            "notes": "The bank is north of the lodestone. Get your wood box, combat runes (Air), Marigold and Guam seeds, and bank everything else."
+            "notes": "The bank is north of the lodestone if you need it. Get your [[Wood box]], [[Ore box]], [[Air rune|combat runes (Air)]], [[Marigold seed|Marigold]] and [[Guam seed|Guam]] seeds, and bank everything else."
         },
         {
             "id": 122,
             "order": 116,
             "task_id": 1173,
             "name": "",
-            "notes": "It's south of the lodestone. You can teleport or run."
+            "notes": "It's south of the lodestone."
         },
         {
             "id": 123,
             "order": 117,
             "task_id": null,
-            "name": "Buy a hunter supplies from the Groundskeeper.",
-            "notes": "The [[Groundskeeper]] has a [[The Birds and the Bees|shop]] south of the lighthouse. You need at least 1 [[Clockwork]], but multiple are fine. You can also pick up some [[Rabbit snare|Rabbit snares]] here after getting 32 Hunter."
+            "name": "Buy hunter supplies from the Groundskeeper.",
+            "notes": "The [[Groundskeeper]] has a [[The Birds and the Bees|shop]] south of the lighthouse. You need at least 1 [[Clockwork]], but multiple are fine. You can also pick up some [[Rabbit snare|Rabbit snares]] and a [[Teasing stick]] here after getting 32 Hunter."
         },
         {
             "id": 124,
@@ -985,7 +985,7 @@
             "order": 133,
             "task_id": 1167,
             "name": "",
-            "notes": "The most important task. South of Eastfold Farm, near the pond with ducks. There is a [[Anya|red tent]] there."
+            "notes": "The most important task. South of Eastfold Farm, near the pond with ducks. There is a [[Anya|red tent]] there. You need 21 inventory spaces for the next steps, so bank or drop anything you don't need."
         },
         {
             "id": 141,
@@ -1006,7 +1006,7 @@
             "order": 135,
             "task_id": 1186,
             "name": "",
-            "notes": "These are on the cliffs around Raz's house. You shouldn't need to for this task, but you can only catch [[Gold spirit moth|gold spirit moths]] with a [[butterfly net]] for now."
+            "notes": "There are four on the cliffs around Raz's house. It's not required for this task, but you can only catch [[Gold spirit moth|gold spirit moths]] with a [[butterfly net]] for now. Hold on to the [[Gold charm|Gold charms]]."
         },
         {
             "id": 144,
@@ -1020,18 +1020,18 @@
             "order": 137,
             "task_id": 1168,
             "name": "",
-            "notes": "Far to the north and west of the cliffs here, overhanging the ocean."
+            "notes": "Directly west and a bit north of the [[Hollow tree (Highweald Forest)|hollow trees]] here, overhanging the ocean."
         },
         {
             "id": 146,
-            "order": 138,
+            "order": 139,
             "task_id": 1179,
             "name": "",
             "notes": "These are quite good money with Golden Touch, so stay here until 50 Thieving if you didn't get it earlier."
         },
         {
             "id": 147,
-            "order": 139,
+            "order": 138,
             "task_id": 1181,
             "name": "",
             "notes": "This red vine grows on many of the houses in Wendlewick."
@@ -1073,7 +1073,7 @@
         },
         {
             "id": 153,
-            "order": 138.1,
+            "order": 139.1,
             "task_id": 137,
             "name": "",
             "notes": ""
@@ -1101,31 +1101,31 @@
         },
         {
             "id": 157,
-            "order": 139.11,
+            "order": 135.11,
             "task_id": 1197,
             "name": "",
             "notes": "The ore can be gathered from the [[Highweald Ruins mine]], a cave near where the hollow trees were. The silver can't be stored in the ore box, but grab some extra copper and tin to level your smithing."
         },
         {
             "id": 158,
-            "order": 139.12,
+            "order": 138.8,
             "task_id": 1198,
             "name": "",
-            "notes": "Use the lodestone to get back more quickly. You can smelt and smith this at the furnace in Wendlewick."
+            "notes": "You can smelt and smith this at the furnace in Wendlewick."
         },
-        {
+        {   
             "id": 159,
-            "order": 139.10,
+            "order": 135.1,
             "task_id": null,
-            "name": "Bank your items and grab your ore box.",
-            "notes": ""
+            "name": "Get to at least level 32 Hunter",
+            "notes": "Continue hunting [[Spirit moths|moths]] until you get 32 [[Hunter]]."
         },
         {
             "id": 160,
             "order": 142.1,
             "task_id": 38,
             "name": "",
-            "notes": "Take the opportunity to level mining and smithing to 30 here and upgrade your hatchet and pickaxe using the furnace and anvil in Lumbridge."
+            "notes": "Take the opportunity to level Mining and Smithing to 30 here and upgrade your hatchet and pickaxe using the furnace and anvil in Lumbridge. Make use of any [[Sign of the Porter|porters]] if you took [[Divine Druid]]."
         },
         {
             "id": 161,
@@ -1174,14 +1174,14 @@
             "order": 79.14,
             "task_id": null,
             "name": "Travel to the Sanctum of Rebirth.",
-            "notes": "Use the [[gondola]] on the docks north of [[Kharen]] to get there."
+            "notes": "Use the [[gondola]] on the docks where [[Kharen]] is to get there. The gondola is just to her north."
         },
         {
             "id": 168,
             "order": 79.15,
             "task_id": null,
             "name": "Get 20 Divination at Gate of Elidinis.",
-            "notes": "Start the encounter at Icthlarin. Gather 10 Moonstone and repair the [[Moonstone conduit]]. Transmute the [[Corrupt shard of Elidinis|red shards]] behind the barrier (around Icthlarin) until you hit 20 Divination. It should  take about 7 shards. Don't worry about mechanics, just go again if you die."
+            "notes": "Start the encounter at Icthlarin. Gather 10-15 Moonstone and repair the [[Moonstone conduit]]. Transmute the [[Corrupt shard of Elidinis|red shards]] behind the barrier (around Icthlarin) until you hit 20 Divination. It should  take about 7 shards. Don't worry about mechanics, just go again if you die."
         },
         {
             "id": 169,
@@ -1202,7 +1202,7 @@
             "order": 142.4,
             "task_id": null,
             "name": "Pick your third relic.",
-            "notes": ""
+            "notes": "You should easily have this by now."
         },
         {
             "id": 172,
@@ -1223,7 +1223,7 @@
             "order": 149,
             "task_id": 15,
             "name": "",
-            "notes": ""
+            "notes": "The mugger can wander quite far and into buildings. There is also only 1."
         },
         {
             "id": 175,
@@ -1237,7 +1237,7 @@
             "order": 151,
             "task_id": 17,
             "name": "",
-            "notes": "If you didn't take [[Golden Touch]], you can use one of the lamps on Agility to get at least level 12 which you need for an upcoming task. Archaeology, Runecrafting, and Crafting are other good choices."
+            "notes": "If you didn't take [[Golden Touch]], use one of the lamps on Agility to get at least level 12 which you need for an upcoming task. Use the other lamp on Summoning to get at least level 4."
         },
         {
             "id": 177,
@@ -1262,8 +1262,8 @@
         },
         {
             "id": 180,
-            "order": 153,
-            "task_id": 1170,
+            "order": 0,
+            "task_id": null,
             "name": "",
             "notes": ""
         },
@@ -1279,7 +1279,7 @@
             "order": 155,
             "task_id": 1206,
             "name": "",
-            "notes": "Head east and north and use the cave entrance under the [[Sanguine crawler|Sanguine crawlers]]."
+            "notes": "Head east and north and use the cave entrance under the [[Sanguine crawler|Sanguine crawlers]]. If this is too difficult, you can skip it for now. The wiki has information on her attack pattern."
         },
         {
             "id": 183,
@@ -1346,14 +1346,14 @@
         },
         {
             "id": 192,
-            "order": 165,
+            "order": 166,
             "task_id": 597,
             "name": "",
             "notes": "These are east of Brimhaven, toward [[Musa Point]]."
         },
         {
             "id": 193,
-            "order": 166,
+            "order": 165,
             "task_id": 614,
             "name": "",
             "notes": "Enter the [[Tzhaar City]] at the top of the volcano."
@@ -1363,7 +1363,175 @@
             "order": 167,
             "task_id": 595,
             "name": "",
-            "notes": "Exit the city and head east toward the [[Banana Plantation]]."
+            "notes": "Speak to [[Luthas]] to get a job, fill the crate with 10 bananas, then speak to Luthas again."
+        },
+        {
+            "id": 195,
+            "order": 21.1,
+            "task_id": null,
+            "name": "Buy 2 Pots and 1 Bucket from the Lumbridge Shop.",
+            "notes": "These aren't mandatory, but it saves having to compete for ground spawns."
+        },
+        {
+            "id": 196,
+            "order": 135.1,
+            "task_id": null,
+            "name": "Collect enough Copper and Tin to fill your ore box from the nearby mine.",
+            "notes": "You need to get at least level 10 Mining and Smithing."
+        },
+        {
+            "id": 197,
+            "order": 138.11,
+            "task_id": null,
+            "name": "Home teleport to Wendlewick.",
+            "notes": ""
+        },
+        {
+            "id": 198,
+            "order": 138.81,
+            "task_id": 827,
+            "name": "",
+            "notes": "Use the Copper and Tin you gathered to complete this and get 10 Smithing."
+        },
+        {
+            "id": 199,
+            "order": 140.1,
+            "task_id": 1182,
+            "name": "",
+            "notes": "The jackalopes are south of the lighthouse. Stop by the [[Groundskeeper]] to buy 2 [[Rabbit snare|Rabbit snares]] and 1 [[Teasing stick]]. Place a snare in front of the holes and scare them out. Hold on to the horns until you get 30 Summoning later for another task."
+        },
+        {
+            "id": 200,
+            "order": 140.11,
+            "task_id": 853,
+            "name": "",
+            "notes": "You may have already had this from catching moths."
+        },
+        {
+            "id": 201,
+            "order": 142.11,
+            "task_id": 828,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 202,
+            "order": 142.12,
+            "task_id": 163,
+            "name": "",
+            "notes": "You may not have this by the time you hit 30 Mining and Smithing, but there's more mining coming up soon."
+        },
+        {
+            "id": 203,
+            "order": 142.13,
+            "task_id": 149,
+            "name": "",
+            "notes": "You may not have this yet, but should be close."
+        },
+        {
+            "id": 204,
+            "order": 145.1,
+            "task_id": 888,
+            "name": "",
+            "notes": "This is available from the [[Varrock south-east mine]] as well."
+        },
+        {
+            "id": 205,
+            "order": 145.12,
+            "task_id": 889,
+            "name": "",
+            "notes": "This is available from the [[Varrock south-east mine]]. You won't have access to [[Luminite]] just yet unless you have [[Endless Harvest]]."
+        },
+        {
+            "id": 206,
+            "order": 145.09,
+            "task_id": 832,
+            "name": "",
+            "notes": "If your inventory is filling up too quickly or you don't have [[Endless Harvest]], it should be easier on Mithril and Adamant."
+        },
+        {
+            "id": 207,
+            "order": 142.3,
+            "task_id": null,
+            "name": "Level Fishing to 40.",
+            "notes": "Use the [[fishing spot|fishing spots]] east of [[Lumbridge market]] to catch [[Raw trout|trout]], [[Raw pike|pike]], and [[Raw salmon|salmon]]. You can also train Cooking."
+        },
+        {
+            "id": 208,
+            "order": 142.14,
+            "task_id": 886,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 209,
+            "order": 149.1,
+            "task_id": null,
+            "name": "Unlock the Edgeville lodestone.",
+            "notes": ""
+        },
+        {
+            "id": 210,
+            "order": 151.1,
+            "task_id": null,
+            "name": "Home teleport to Edgeville.",
+            "notes": ""
+        },
+        {
+            "id": 211,
+            "order": 168,
+            "task_id": 617,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 212,
+            "order": 169,
+            "task_id": 607,
+            "name": "",
+            "notes": "He is south of the volcano and only notes [[Raw tuna|tuna]], [[Raw lobster|lobster]], or [[Raw swordfish|swordfish]]."
+        },
+        {
+            "id": 213,
+            "order": 170,
+            "task_id": 606,
+            "name": "",
+            "notes": "[[Shilo Village]] is auto-completed, so speak to [[Hajedy]] north of the [[Brimhaven Agility Arena|Agility arena]] and take the [[Shilo Village cart system|cart]] there to catch a salmon."
+        },
+        {
+            "id": 214,
+            "order": 171,
+            "task_id": 895,
+            "name": "",
+            "notes": "Continue catching salmon if you didn't complete this already."
+        },
+        {
+            "id": 215,
+            "order": 142.31,
+            "task_id": 896,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 216,
+            "order": 76.1,
+            "task_id": 843,
+            "name": "",
+            "notes": "Scatter the [[Impious ashes]] that the Imp drops."
+        },
+        {
+            "id": 217,
+            "order": 172,
+            "task_id": 610,
+            "name": "",
+            "notes": "The gem rocks are in the north-west of Shilo Village."
+        },
+        {
+            "id": 218,
+            "order": 173,
+            "task_id": null,
+            "name": "Pick your first choice region.",
+            "notes": "Congratulations! This is where the guide ends. There was some speculation on what the combat tasks would be, so those are a good next goal if you aren't to Blessing Tier III yet."
         }
     ]
 }
