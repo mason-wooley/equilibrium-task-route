@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
 }
 
@@ -14,15 +14,12 @@ body {
 
     color: #eae9fc;
 
-    background-color: #010800;
+    background-color: #000000;
 
-    background-image:
-        linear-gradient(rgba(1, 8, 0, 0.55),
-            rgba(1, 8, 0, 0.55)),
-        url("league2_background.png");
+    background-image: url("league2_background.png");
 
-    background-size: cover;
-    background-position: right center;
+    background-size: auto 100vh;
+    background-position: right top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
