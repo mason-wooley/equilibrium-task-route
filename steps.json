@@ -1261,13 +1261,6 @@
             "notes": "You want to get about 20-30 [[Cake]] from the [[Bakery Stall]] in [[Lumbridge Market]]."
         },
         {
-            "id": 180,
-            "order": 0,
-            "task_id": null,
-            "name": "",
-            "notes": ""
-        },
-        {
             "id": 181,
             "order": 154,
             "task_id": null,
