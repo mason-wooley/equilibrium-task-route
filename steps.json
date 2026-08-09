@@ -11,7 +11,7 @@
             "id": 1,
             "order": 1,
             "task_id": null,
-            "name": "Pick your first Relic.",
+            "name": "Pick your first relic.",
             "notes": ""
         },
         {
@@ -54,7 +54,7 @@
             "order": 7,
             "task_id": 219,
             "name": "",
-            "notes": "The [[Musician_(Lumbridge)|musician]] is north of Lumbridge Lodestone."
+            "notes": "The [[Musician_(Lumbridge)|musician]] is north of Lumbridge lodestone."
         },
         {
             "id": 8,
@@ -453,14 +453,14 @@
             "order": 64,
             "task_id": 839,
             "name": "",
-            "notes": "A pot spawns on the bottom floor of the windmill on a table."
+            "notes": "A pot spawns on the bottom floor of the windmill on a table. Collect 2 to turn both wheat into flour."
         },
         {
             "id": 65,
             "order": 65,
             "task_id": 215,
             "name": "",
-            "notes": ""
+            "notes": "Make sure to only make 1 wheat into bread dough."
         },
         {
             "id": 66,
@@ -557,7 +557,7 @@
             "id": 79,
             "order": 79,
             "task_id": null,
-            "name": "Unlock the Draynor Lodestone.",
+            "name": "Unlock the Draynor lodestone.",
             "notes": ""
         },
         {
@@ -571,8 +571,8 @@
             "id": 81,
             "order": 81,
             "task_id": null,
-            "name": "Begin the quest Vampire Slayer.",
-            "notes": "You're not completing [[Vampire Slayer]] right here, just picking it up before going to Varrock."
+            "name": "Begin the quest Vampyre Slayer.",
+            "notes": "You're not completing [[Vampyre Slayer]] right here, just picking it up before going to Varrock."
         },
         {
             "id": 82,
@@ -660,7 +660,7 @@
         },
         {
             "id": 94,
-            "order":89,
+            "order": 89,
             "task_id": null,
             "name": "Home teleport to Lumbridge.",
             "notes": "Start heading toward Varrock."
@@ -683,7 +683,7 @@
             "id": 97,
             "order": 92,
             "task_id": null,
-            "name": "Continue Vampire Slayer at Blue Moon Inn.",
+            "name": "Continue Vampyre Slayer at Blue Moon Inn.",
             "notes": "Buy an extra beer for [[Bill]] later."
         },
         {
@@ -796,7 +796,7 @@
             "order": 107,
             "task_id": 104,
             "name": "",
-            "notes": "Keep the [[Archaeology journal]] in your pocket slot. Take the opportunity to bank any unneeded items (Vampire Slayer will not be completed for a while)."
+            "notes": "Keep the [[Archaeology journal]] in your pocket slot. Take the opportunity to bank any unneeded items (Vampyre Slayer will not be completed for a while)."
         },
         {
             "id": 114,
@@ -999,18 +999,18 @@
             "order": 54.2,
             "task_id": 612,
             "name": "",
-            "notes": "This is auto-completed on unlocking Karamja, so free 30 points."
+            "notes": "This is auto-completed on unlocking Karamja, so enjoy the free 30 points."
         },
         {
             "id": 143,
             "order": 135,
             "task_id": 1186,
             "name": "",
-            "notes": "These are on the cliffs around Raz's house. You can only catch [[Gold spirit moth|gold spirit moths]] with a [[butterfly net]] for now. Keep going until 5 Agility if you don't have it yet."
+            "notes": "These are on the cliffs around Raz's house. You shouldn't need to for this task, but you can only catch [[Gold spirit moth|gold spirit moths]] with a [[butterfly net]] for now."
         },
         {
             "id": 144,
-            "order": 136,
+            "order": 151.1,
             "task_id": 862,
             "name": "",
             "notes": ""
@@ -1041,14 +1041,14 @@
             "order": 140,
             "task_id": 1178,
             "name": "",
-            "notes": "West beach of Havenhythe. Try to pick up 20 Defence here. Magic should be the preferred style if you have runes."
+            "notes": "West beach of Havenhythe."
         },
         {
             "id": 149,
             "order": 141,
             "task_id": null,
             "name": "Home teleport to Lumbridge.",
-            "notes": "You can buy upgraded hatchets from [[Bob's Brilliant Axes]] while you're here."
+            "notes": "You can buy upgraded hatchets from [[Bob's Brilliant Axes]] or smith one (coming up next) while you're here."
         },
         {
             "id": 150,
@@ -1094,178 +1094,283 @@
         },
         {
             "id": 156,
-            "order": 0,
-            "task_id": null,
+            "order": 145,
+            "task_id": 106,
             "name": "",
             "notes": ""
         },
         {
             "id": 157,
-            "order": 0,
-            "task_id": null,
+            "order": 139.11,
+            "task_id": 1197,
             "name": "",
-            "notes": ""
+            "notes": "The ore can be gathered from the [[Highweald Ruins mine]], a cave near where the hollow trees were. The silver can't be stored in the ore box, but grab some extra copper and tin to level your smithing."
         },
         {
             "id": 158,
-            "order": 0,
-            "task_id": null,
+            "order": 139.12,
+            "task_id": 1198,
             "name": "",
-            "notes": ""
+            "notes": "Use the lodestone to get back more quickly. You can smelt and smith this at the furnace in Wendlewick."
         },
         {
             "id": 159,
-            "order": 0,
+            "order": 139.10,
             "task_id": null,
-            "name": "",
+            "name": "Bank your items and grab your ore box.",
             "notes": ""
         },
         {
             "id": 160,
-            "order": 0,
-            "task_id": null,
+            "order": 142.1,
+            "task_id": 38,
             "name": "",
-            "notes": ""
+            "notes": "Take the opportunity to level mining and smithing to 30 here and upgrade your hatchet and pickaxe using the furnace and anvil in Lumbridge."
         },
         {
             "id": 161,
-            "order": 0,
-            "task_id": null,
+            "order": 142.2,
+            "task_id": 36,
             "name": "",
             "notes": ""
         },
         {
             "id": 162,
-            "order": 0,
-            "task_id": null,
+            "order": 146,
+            "task_id": 115,
             "name": "",
-            "notes": ""
+            "notes": "If you took [[Divine Druid]] and have any [[Sign of the Porter|porters]], you can use those here to automatically bank the essence."
         },
         {
             "id": 163,
-            "order": 0,
-            "task_id": null,
+            "order": 79.10,
+            "task_id": 62,
             "name": "",
-            "notes": ""
+            "notes": "Head directly north of Draynor lodestone to start this quest."
         },
         {
             "id": 164,
-            "order": 0,
-            "task_id": null,
+            "order": 79.11,
+            "task_id": 65,
             "name": "",
             "notes": ""
         },
         {
             "id": 165,
-            "order": 0,
-            "task_id": null,
+            "order": 79.12,
+            "task_id": 66,
             "name": "",
             "notes": ""
         },
         {
             "id": 166,
-            "order": 0,
+            "order": 79.13,
             "task_id": null,
-            "name": "",
+            "name": "Unlock the Um lodestone.",
             "notes": ""
         },
         {
             "id": 167,
-            "order": 0,
+            "order": 79.14,
             "task_id": null,
-            "name": "",
-            "notes": ""
+            "name": "Travel to the Sanctum of Rebirth.",
+            "notes": "Use the [[gondola]] on the docks north of [[Kharen]] to get there."
         },
         {
             "id": 168,
-            "order": 0,
+            "order": 79.15,
             "task_id": null,
-            "name": "",
-            "notes": ""
+            "name": "Get 20 Divination at Gate of Elidinis.",
+            "notes": "Start the encounter at Icthlarin. Gather 10 Moonstone and repair the [[Moonstone conduit]]. Transmute the [[Corrupt shard of Elidinis|red shards]] behind the barrier (around Icthlarin) until you hit 20 Divination. It should  take about 7 shards. Don't worry about mechanics, just go again if you die."
         },
         {
             "id": 169,
-            "order": 0,
+            "order": 79.16,
             "task_id": null,
-            "name": "",
+            "name": "Home teleport to Draynor.",
             "notes": ""
         },
         {
             "id": 170,
-            "order": 0,
+            "order": 142.09,
             "task_id": null,
-            "name": "",
-            "notes": ""
+            "name": "Claim a Dramen Staff from the League Sage.",
+            "notes": "The [[Sage]] is in Lumbridge Castle's courtyard."
         },
         {
             "id": 171,
-            "order": 0,
+            "order": 142.4,
             "task_id": null,
-            "name": "",
+            "name": "Pick your third relic.",
             "notes": ""
         },
         {
             "id": 172,
-            "order": 0,
-            "task_id": null,
+            "order": 147,
+            "task_id": 16,
             "name": "",
             "notes": ""
         },
         {
             "id": 173,
-            "order": 0,
+            "order": 148,
             "task_id": null,
-            "name": "",
-            "notes": ""
+            "name": "Optional: Complete the Stronghold of Security.",
+            "notes": "There are no Easy or Medium tasks for this, so only complete this if you're low on gold."
         },
         {
             "id": 174,
-            "order": 0,
-            "task_id": null,
+            "order": 149,
+            "task_id": 15,
             "name": "",
             "notes": ""
         },
         {
             "id": 175,
-            "order": 0,
-            "task_id": null,
+            "order": 150,
+            "task_id": 111,
             "name": "",
             "notes": ""
         },
         {
             "id": 176,
-            "order": 0,
-            "task_id": null,
+            "order": 151,
+            "task_id": 17,
             "name": "",
-            "notes": ""
+            "notes": "If you didn't take [[Golden Touch]], you can use one of the lamps on Agility to get at least level 12 which you need for an upcoming task. Archaeology, Runecrafting, and Crafting are other good choices."
         },
         {
             "id": 177,
-            "order": 0,
-            "task_id": null,
+            "order": 142.11,
+            "task_id": 31,
             "name": "",
-            "notes": ""
+            "notes": "Travel through the [[Zanaris shed|shed]] with your [[Dramen staff]] and head right back to finish mining."
         },
         {
             "id": 178,
-            "order": 0,
-            "task_id": null,
+            "order": 152,
+            "task_id": 1172,
             "name": "",
-            "notes": ""
+            "notes": "Use the [[Fairy ring#DKR|fairy ring east of Edgeville]]. You will be using code [[Fairy ring#DLP|DLP]] to get to [[Amberfell]]. Bring some food along with you."
         },
         {
             "id": 179,
-            "order": 0,
+            "order": 142.21,
             "task_id": null,
+            "name": "Steal some food from the Bakery Stall.",
+            "notes": "You want to get about 20-30 [[Cake]] from the [[Bakery Stall]] in [[Lumbridge Market]]."
+        },
+        {
+            "id": 180,
+            "order": 153,
+            "task_id": 1170,
             "name": "",
             "notes": ""
         },
         {
-            "id": 180,
-            "order": 0,
+            "id": 181,
+            "order": 154,
             "task_id": null,
+            "name": "Use the Fairy Ring to travel to Inanna's Shrine.",
+            "notes": "The Fairy ring code is [[Fairy ring#BKS|BKS]]."
+        },
+        {
+            "id": 182,
+            "order": 155,
+            "task_id": 1206,
+            "name": "",
+            "notes": "Head east and north and use the cave entrance under the [[Sanguine crawler|Sanguine crawlers]]."
+        },
+        {
+            "id": 183,
+            "order": 156,
+            "task_id": 1203,
+            "name": "",
+            "notes": "Continue north to [[Hollow Hill]] and enter Ivar's arena."
+        },
+        {
+            "id": 184,
+            "order": 157,
+            "task_id": null,
+            "name": "Home teleport to Karamja.",
+            "notes": ""
+        },
+        {
+            "id": 185,
+            "order": 158,
+            "task_id": 601,
             "name": "",
             "notes": ""
+        },
+        {
+            "id": 186,
+            "order": 159,
+            "task_id": 594,
+            "name": "",
+            "notes": "You can drop and pick up the same seaweed repeatedly."
+        },
+        {
+            "id": 187,
+            "order": 160,
+            "task_id": 598,
+            "name": "",
+            "notes": "South of [[Tai Bwo Wannai]]."
+        },
+        {
+            "id": 188,
+            "order": 161,
+            "task_id": 602,
+            "name": "",
+            "notes": "Head back north to the lodestone or teleport there."
+        },
+        {
+            "id": 189,
+            "order": 162,
+            "task_id": 603,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 190,
+            "order": 163,
+            "task_id": 600,
+            "name": "",
+            "notes": "The [[Greater demon|Greater demons]] are south of the agility shortcut and up the first stairs you see."
+        },
+        {
+            "id": 191,
+            "order": 164,
+            "task_id": 596,
+            "name": "",
+            "notes": "Head back to Brimhaven via the [[Karamja lodestone]] or by running."
+        },
+        {
+            "id": 192,
+            "order": 165,
+            "task_id": 596,
+            "name": "",
+            "notes": ""
+        },
+        {
+            "id": 193,
+            "order": 166,
+            "task_id": 597,
+            "name": "",
+            "notes": "These are east of Brimhaven, toward [[Musa Point]]."
+        },
+        {
+            "id": 194,
+            "order": 167,
+            "task_id": 614,
+            "name": "",
+            "notes": "Enter the [[Tzhaar City]] at the top of the volcano."
+        },
+        {
+            "id": 195,
+            "order": 168,
+            "task_id": 595,
+            "name": "",
+            "notes": "Exit the city and head east toward the [[Banana Plantation]]."
         }
     ]
 }
