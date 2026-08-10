@@ -502,7 +502,7 @@
             "order": 71,
             "task_id": 863,
             "name": "",
-            "notes": "Collect 14 balls of wool total. There is 1 that spawns on the table in the farm."
+            "notes": "Collect as many balls of wool as you can, but you need 24 total. 20 for Sheep Shearer and 4 for Ned. There is 1 that spawns on the table in the farm. You can finish this up in Lumbridge at [[Farmer Fred|Farmer Fred's]]."
         },
         {
             "id": 72,
@@ -552,13 +552,6 @@
             "task_id": null,
             "name": "Pick your second relic.",
             "notes": "If you don't have enough points yet, you'll have it soon."
-        },
-        {
-            "id": 79,
-            "order": 79,
-            "task_id": null,
-            "name": "Unlock the Draynor lodestone.",
-            "notes": ""
         },
         {
             "id": 80,
@@ -838,7 +831,7 @@
             "order": 113,
             "task_id": 23,
             "name": "",
-            "notes": "Feel free to skip this step without the funds to buy materials. Gathering takes a while. You can run north and grab the [[Edgeville lodestone]] when fetching [[Siv]] at the [[Barbarian Village]], but it's not a monumental time save."
+            "notes": "Feel free to skip this step without the funds to buy materials. Gathering takes a while. Finish up [[Vampyre Slayer]] when the quest sends you to Draynor."
         },
         {
             "id": 120,
@@ -943,7 +936,7 @@
             "order": 128,
             "task_id": 166,
             "name": "",
-            "notes": "Continue Woodcutting and Fletching while waiting for crops to grow. The goal is 35 Woodcutting. Finish the arrow shaft task from earlier if it isn't complete already."
+            "notes": "Continue Woodcutting and Fletching while waiting for crops to grow. The goal is 35 Woodcutting. Finish the arrow shaft task from earlier if it isn't complete already. Don't worry about finishing this task, just get 35 Woodcutting and 1,000 arrow shafts. You will have plenty of points by now and with the low woodcutting level and low tier hatchet, it is miserably slow."
         },
         {
             "id": 135,
@@ -1457,13 +1450,6 @@
             "notes": ""
         },
         {
-            "id": 209,
-            "order": 149.1,
-            "task_id": null,
-            "name": "Unlock the Edgeville lodestone.",
-            "notes": ""
-        },
-        {
             "id": 210,
             "order": 151.1,
             "task_id": null,
@@ -1525,6 +1511,13 @@
             "task_id": null,
             "name": "Pick your first choice region.",
             "notes": "Congratulations! This is where the guide ends. There was some speculation on what the combat tasks would be, so those are a good next goal if you aren't to Blessing Tier III yet."
+        },
+        {
+            "id": 219,
+            "order": 113.5,
+            "task_id": 114,
+            "name": "",
+            "notes": "Grab your wood stake, hammer, and garlic out of the bank."
         }
     ]
 }
